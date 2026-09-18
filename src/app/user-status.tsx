@@ -44,8 +44,38 @@ export default function StatusScreen() {
             <Text style={styles.avatarText}>MS</Text>
           </View>
           <View style={styles.statusInfo}>
-            <Text style={styles.statusTitle}>Maria Souzaa</Text>
+            <Text style={styles.statusTitle}>Maria Souza</Text>
             <Text style={styles.statusSubtitle}>Ontem, 20:40</Text>
+          </View>
+        </View>
+
+        <View style={styles.statusItem}>
+          <View style={[styles.avatar, styles.statusRing]}>
+            <Text style={styles.avatarText}>CP</Text>
+          </View>
+          <View style={styles.statusInfo}>
+            <Text style={styles.statusTitle}>Carlos Pereira</Text>
+            <Text style={styles.statusSubtitle}>Hoje, 12:30</Text>
+          </View>
+        </View>
+
+        <View style={styles.statusItem}>
+          <View style={[styles.avatar, styles.statusRing]}>
+            <Text style={styles.avatarText}>AL</Text>
+          </View>
+          <View style={styles.statusInfo}>
+            <Text style={styles.statusTitle}>Ana Lima</Text>
+            <Text style={styles.statusSubtitle}>Ontem, 18:10</Text>
+          </View>
+        </View>
+
+        <View style={styles.statusItem}>
+          <View style={[styles.avatar, styles.statusRing]}>
+            <Text style={styles.avatarText}>RB</Text>
+          </View>
+          <View style={styles.statusInfo}>
+            <Text style={styles.statusTitle}>Rafael Barbosa</Text>
+            <Text style={styles.statusSubtitle}>Ontem, 09:15</Text>
           </View>
         </View>
       </ScrollView>
