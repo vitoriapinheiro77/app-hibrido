@@ -6,6 +6,9 @@ const DUMMY_CHATS = [
   { id: '2', name: 'João Silva', message: 'Beleza, combinado então!', time: '15:20' },
   { id: '3', name: 'Maria Souza', message: 'O app tá ficando show de bola!', time: 'Ontem' },
   { id: '4', name: 'Suporte Técnico', message: 'Chamado #4092 resolvido.', time: 'Ontem' },
+  { id: '5', name: 'Carlos Eduardo', message: 'Me liga quando puder, por favor.', time: 'Segunda' },
+  { id: '6', name: 'Ana Paula (Trabalho)', message: 'Enviei o relatório por e-mail.', time: 'Domingo' },
+  { id: '7', name: 'Família ❤️', message: 'Almoço domingo aqui em casa!', time: '18/09' },
 ];
 
 export default function HomeScreen() {
