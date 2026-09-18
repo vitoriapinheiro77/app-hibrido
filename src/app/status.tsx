@@ -44,7 +44,7 @@ export default function StatusScreen() {
             <Text style={styles.avatarText}>MS</Text>
           </View>
           <View style={styles.statusInfo}>
-            <Text style={styles.statusTitle}>Maria Souza</Text>
+            <Text style={styles.statusTitle}>Maria Souzaa</Text>
             <Text style={styles.statusSubtitle}>Ontem, 20:40</Text>
           </View>
         </View>
