@@ -6,7 +6,7 @@ export default function ChatScreen() {
   const [messages, setMessages] = useState([
     { id: '1', text: 'Oi, tudo bem?', sender: 'them' },
     { id: '2', text: 'Tudo ótimo! E com você?', sender: 'me' },
-    { id: '3', text: 'Pessoal, alguém terminou o trabalho?', sender: 'them' },
+    { id: '3', text: 'Pessoal, alguém terminou o trabalho? kkk', sender: 'them' },
   ]);
   const [inputText, setInputText] = useState('');
 
