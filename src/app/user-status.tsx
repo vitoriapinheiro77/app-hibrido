@@ -53,7 +53,7 @@ export default function StatusScreen() {
       {/* Menu de navegação rápido para testar as telas */}
       <View style={styles.navBar}>
         <Link href="/" style={styles.navLink}>Conversas</Link>
-        <Link href="/status" style={[styles.navLink, styles.activeLink]}>Status</Link>
+        <Link href="/user-status" style={[styles.navLink, styles.activeLink]}>user-status</Link>
         <Link href="/chat" style={styles.navLink}>Chat</Link>
       </View>
     </View>
