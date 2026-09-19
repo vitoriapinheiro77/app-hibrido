@@ -16,8 +16,8 @@ export default function SettingsScreen() {
             <Text style={styles.avatarText}>EU</Text>
           </View>
           <View style={styles.profileInfo}>
-            <Text style={styles.profileName}> (Estudante)</Text>
-            <Text style={styles.profileStatus}>Disponível para o projeto da faculdade 🚀</Text>
+            <Text style={styles.profileName}> Vitória</Text>
+            <Text style={styles.profileStatus}>Disponível para o projeto da faculdade </Text>
           </View>
         </TouchableOpacity>
 
