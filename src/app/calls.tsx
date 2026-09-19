@@ -64,6 +64,7 @@ export default function CallsScreen() {
         <Link href="/user-status" style={styles.navLink}>Status</Link>
         <Link href="/calls" style={styles.navLink}>Chamadas</Link>
         <Link href="/chat" style={styles.navLink}>Chat</Link>
+        <Link href="/settings" style={styles.navLink}>Perfil</Link>
       </View>
     </View>
   );
