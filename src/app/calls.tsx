@@ -62,7 +62,7 @@ export default function CallsScreen() {
       <View style={styles.navBar}>
         <Link href="/" style={styles.navLink}>Conversas</Link>
         <Link href="/user-status" style={styles.navLink}>Status</Link>
-        <Link href="/calls" style={[styles.navLink, styles.activeLink]}>Chamadas</Link>
+        <Link href="/calls" style={styles.navLink}>Chamadas</Link>
         <Link href="/chat" style={styles.navLink}>Chat</Link>
       </View>
     </View>

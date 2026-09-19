@@ -80,10 +80,11 @@ export default function StatusScreen() {
         </View>
       </ScrollView>
 
-      {/* Menu de navegação rápido para testar as telas */}
+     {/* Menu de navegação rápido para testar as telas */}
       <View style={styles.navBar}>
         <Link href="/" style={styles.navLink}>Conversas</Link>
-        <Link href="/user-status" style={[styles.navLink, styles.activeLink]}>user-status</Link>
+        <Link href="/user-status" style={styles.navLink}>Status</Link>
+        <Link href="/calls" style={styles.navLink}>Chamadas</Link>
         <Link href="/chat" style={styles.navLink}>Chat</Link>
       </View>
     </View>

@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View, ScrollView, TouchableOpacity } from 'react-native';
+import { Link } from 'expo-router'; // 1. Importação necessária para o menu funcionar
 
 // Lista fictícia de conversas para preencher o app
 const DUMMY_CHATS = [
@@ -40,6 +41,14 @@ export default function HomeScreen() {
           </TouchableOpacity>
         ))}
       </ScrollView>
+
+      {/* 2. Menu de navegação rápido adicionado aqui embaixo */}
+      <View style={styles.navBar}>
+        <Link href="/" style={[styles.navLink, styles.activeLink]}>Conversas</Link>
+        <Link href="/user-status" style={styles.navLink}>Status</Link>
+        <Link href="/calls" style={styles.navLink}>Chamadas</Link>
+        <Link href="/chat" style={styles.navLink}>Chat</Link>
+      </View>
     </View>
   );
 }
@@ -47,10 +56,10 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#111b21', // Fundo escuro estilo WhatsApp moderno (ou use branco se preferir o claro)
+    backgroundColor: '#111b21',
   },
   header: {
-    backgroundColor: '#075e54', // Verde escuro clássico do cabeçalho do WhatsApp
+    backgroundColor: '#075e54',
     height: 100,
     paddingTop: 40,
     paddingHorizontal: 16,
@@ -116,5 +125,22 @@ const styles = StyleSheet.create({
   chatMessage: {
     fontSize: 14,
     color: '#666',
+  },
+  // Estilos da barra de navegação adicionados abaixo
+  navBar: {
+    flexDirection: 'row',
+    backgroundColor: '#f0f2f5',
+    paddingVertical: 12,
+    justifyContent: 'space-around',
+    borderTopWidth: 0.5,
+    borderTopColor: '#ccc',
+  },
+  navLink: {
+    fontSize: 15,
+    color: '#666',
+    fontWeight: 'bold',
+  },
+  activeLink: {
+    color: '#00a884',
   },
 });
