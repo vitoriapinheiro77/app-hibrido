@@ -20,6 +20,10 @@ export default function HomeScreen() {
         <Text style={styles.headerTitle}>WhatsApp</Text>
         <View style={styles.headerIcons}>
           <Text style={styles.iconText}>🔍</Text>
+          {/* Botão de nova conversa que leva para a 6ª tela */}
+          <Link href="/new-chat">
+            <Text style={styles.iconText}>➕</Text>
+          </Link>
           <Text style={styles.iconText}>⋮</Text>
         </View>
       </View>
