@@ -5,7 +5,7 @@ const CONTACTS_LIST = [
   { id: '1', name: 'João Silva', status: 'Disponível' },
   { id: '2', name: 'Maria Souza', status: 'Ocupada no projeto' },
   { id: '3', name: 'Carlos Pereira', status: 'Na faculdade 🎓' },
-  { id: '4', name: 'Ana Lima', status: 'Trabalhando...' },
+  { id: '4', name: 'Eliza', status: 'Trabalhando...' },
   { id: '5', name: 'Rafael Barbosa', status: 'Jogando futebol ' },
   { id: '6', name: 'Beatriz Costa', status: 'Estudando React Native' },
 ];
