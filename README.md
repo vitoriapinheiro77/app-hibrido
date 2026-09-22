@@ -1,6 +1,6 @@
 # WhatsApp Clone - Projeto Acadêmico
 
-## 📱 Telas do Aplicativo
+## Telas do Aplicativo
  **Conversas (`index.tsx`)**: Tela principal com lista de chats e atalho para novos contatos.
  **Chat Individual (`chat.tsx`)**: Tela de mensagens.
  **Status (`user-status.tsx`)**: Atualizações de status dos contatos.
