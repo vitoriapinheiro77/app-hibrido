@@ -65,7 +65,7 @@ export default function SettingsScreen() {
         </View>
       </ScrollView>
 
-      {/* Menu de navegação rápido para testar as telas */}
+      {/* Menu de navegação para testar as telas */}
       <View style={styles.navBar}>
         <Link href="/" style={styles.navLink}>Conversas</Link>
         <Link href="/user-status" style={styles.navLink}>Status</Link>
